@@ -110,4 +110,5 @@ npm run dev
 http://localhost:5174/
 ```
 
+<img width="1686" height="969" alt="image" src="https://github.com/user-attachments/assets/b16e1141-6cd3-444b-8a48-e9cb77129189" />
 
