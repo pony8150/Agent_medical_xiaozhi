@@ -7,7 +7,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/xiaozhi?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8&allowPublicKeyRetrieval=true
-    password: 8150
+    password: xxxxx
     username: root
 
 
@@ -16,7 +16,7 @@ spring:
 langchain4j:
   open-ai:
     chat-model:
-      api-key: sk-a69f288701c64b568d40f4ce84185373
+      api-key: xxxxx
       model-name: qwen-plus
       base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
       log-requests: true
