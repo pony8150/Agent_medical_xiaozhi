@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: langchain4j
+  data:
+    mongodb:
+      uri: mongodb://admin:8150@localhost:27017/admin
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xiaozhi?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8&allowPublicKeyRetrieval=true
+    password: 8150
+    username: root
+
+
+
+
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: sk-a69f288701c64b568d40f4ce84185373
+      model-name: qwen-plus
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      log-requests: true
+      log-responses: true
+  ollama:
+    chat-model:
+      base-url: http://localhost:11434
+      model-name: deepseek-r1:1.5b
+  community:
+    dashscope:
+      chat-model:
+        api-key: xxxx
+        model-name: qwen-plus
+      embedding-model:
+        model-name: text-embedding-v3
+        api-key: xxxx
+      streaming-chat-model:
+        model-name: qwen-plus
+        api-key: xxxx
+
+
+logging:
+  level:
+    root: info
+
+server:
+  port: 8080
+
